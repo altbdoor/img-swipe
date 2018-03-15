@@ -50,11 +50,12 @@
             //   });
             // };
             // reader.readAsDataURL(file);
+            // return found = true;
+            found = true;
             return options.callback.call(element, {
               file: file,
               name: file.name,
             });
-            return found = true;
           }
         });
       });
