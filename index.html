@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>img-swiper</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/style.css">
+</head>
+<body class="bg-dark text-white">
+    <!-- <input type="file" id="inputfile"> -->
+
+    <div id="upload-container" class="custom-container text-center">
+        <div class="px-3 pb-3">
+            <h1 class="pt-5 pb-3">Upload</h1>
+            <p>
+                Simply paste on this page or use the button below
+            </p>
+            <label class="btn btn-primary btn-lg">
+                <input type="file" class="d-none" id="upload-input-file">
+                Select file
+            </label>
+        </div>
+    </div>
+
+    <div id="reaction-container" class="custom-container viewport-height invisible d-none">
+        <ul class="list-unstyled mb-0">
+            <li class="dragend-page viewport-height px-3 pb-3 text-center bg-danger">
+                <h1 class="pt-5 pb-3 text-uppercase reaction-title">Zero</h1>
+                <h3>
+                    You took <span class="reaction-time">...</span>
+                    milliseconds!
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi aperiam autem dolorum minima nostrum, quaerat saepe labore ab facilis fuga veritatis perferendis dicta aliquid architecto, laboriosam quos. Adipisci, culpa dolorum.</p>
+            </li>
+            <li class="dragend-page viewport-height px-3 pb-3 text-center">
+                <div class="py-5">Loading image...</div>
+            </li>
+            <li class="dragend-page viewport-height px-3 pb-3 text-center bg-success">
+                <h1 class="pt-5 pb-3 text-uppercase reaction-title">One</h1>
+                <h3>
+                    You took <span class="reaction-time">...</span>
+                    milliseconds!
+                </h3>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/dragend@0.2.0/dragend.min.js"></script>
+    <script src="public/jquery.paste_image_reader.js"></script>
+    <script src="public/script.js"></script>
+
+</body>
+</html>
