@@ -18,3 +18,9 @@
 .dragend-page.inactive {
     display: none;
 }
+
+.input-wrap {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
