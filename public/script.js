@@ -68,7 +68,7 @@ if (/\?url=/.test(window.location.href)) {
         var imgLoadInterval;
 
         function countDownImgLoad () {
-            $(main).text('Get ready to swipe! <br> In ' + mainCount + ' seconds...');
+            $(main).html('Get ready to swipe! <br> In ' + mainCount + ' seconds...');
             mainCount--;
 
             if (mainCount < 0) {
